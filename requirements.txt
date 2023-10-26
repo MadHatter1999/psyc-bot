@@ -7,4 +7,5 @@ scikit-learn
 numpy
 nltk
 uuid
-imbalanced-learn
+imbalanced-learn]
+transformers

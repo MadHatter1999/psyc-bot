@@ -71,7 +71,7 @@ def classify_and_generate_response(question, tfidf, classifier, data):
     return None
 
 def main():
-    file_path = './output/psychiDoc-f983cbf0-2356-4db8-8d9b-b13ca84fad6c.parquet'
+    file_path = '.\data\part-00000-694db9fd-774c-4205-b938-3729b352d322-c000.snappy.parquet'
     data = load_data(file_path)
     if data is not None:
         X_train, X_test, y_train, y_test = preprocess_data(data)
